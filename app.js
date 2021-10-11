@@ -51,6 +51,7 @@ yargs.command({
 
   handler: function () {
     console.log("Going to read your notes");
+    console.log("Nominated for hacktoberfest");
   },
 });
 //console.log(process.argv); // to catch process argumet i command
