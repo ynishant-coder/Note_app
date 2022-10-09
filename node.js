@@ -34,6 +34,7 @@ const loadNotes = function () {
   try {
     const dataBuffer = fs.readFileSync("notes.json");
     const dataJson = dataBuffer.toString();
+    console.log("trying loadnotes");
     return JSON.parse(dataJson);
   } catch (e) {
     return [];
