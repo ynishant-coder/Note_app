@@ -2,6 +2,7 @@ const fs = require("fs");
 const chalk = require("chalk");
 
 const getNotes = function () {
+  console.log("Testing getNotes");
   return "The Notes you Requested ";
 };
 
